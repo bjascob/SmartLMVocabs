@@ -18,7 +18,7 @@ The project is designed to be used in place and there is no pip installation for
 ## Using the scripts
 The main directory's scripts are prefixed with a number to indicate what order to run them in.  Most scripts in the main directory are a relatively short series of calls the associated library functions.  Before running each script be sure to open it up and set any of the configuration parameters to get the results you want.<br/>
 
-** !! Global configuration options used by multiple scripts are set in ./configs/config.py.  Be sure to go into this file and modify the paths to your data prior to running any of the scripts below.**
+**Global configuration options used by multiple scripts are set in ./configs/config.py.  Be sure to go into this file and modify the paths to your data prior to running any of the scripts below.**
 
 * **00_StanfordCoreNLPServer.py** : Starts the Stanford Core NLP parser using the configuration file ./configs/snlp_server.py.  The script blocks while the server is running.  If you prefer, the server can be started manually.  This script is for convience only.<br/>
 
