@@ -20,11 +20,11 @@ The main directory's scripts are prefixed with a number to indicate what order t
 
 **Global configuration options used by multiple scripts are set in ./configs/config.py.  Be sure to go into this file and modify the paths to your data prior to running any of the scripts below.**
 
-* **00_StanfordCoreNLPServer.py** : Starts the Stanford Core NLP parser using the configuration file ./configs/snlp_server.py.  The script blocks while the server is running.  If you prefer, the server can be started manually.  This script is for convience only.<br/>
+* **00_StanfordCoreNLPServer.py** : Starts the Stanford Core NLP parser using the configuration file ./configs/snlp_server.py.  The script blocks while the server is running.  If you prefer, the server can be started manually.  This script is for convenience only.<br/>
 
 * **10_ExtractUniqueSents.py** : Extracts unique sentences from the Billion Word Corpus prior to parsing.  Near the top of the file are some instructions on how download and setup the raw corpus.<br/>
 
-* **12_STParseBWCorpus.py** : Runs all unique sentences through the Stanford Parser.  Note that step takes a considerable amount of time (possibly a full day) and bennefits greatly from a multi-core processor.  See notes in the file about run-times.<br/>
+* **12_STParseBWCorpus.py** : Runs all unique sentences through the Stanford Parser.  Note that this step takes a considerable amount of time (possibly a full day) and bennefits greatly from a multi-core processor.  See notes in the file about run-times.<br/>
 
 * **14_RemoveDuplicates.py** : Does a second pass through the data to remove duplicate sentences that occur after parsing/normalization.<br/>
 
@@ -34,7 +34,7 @@ The main directory's scripts are prefixed with a number to indicate what order t
 
 * **24_IndexVocab.py** : Creates the indexed corpus data used for training the language model.  Again there is a large if/elif block in here that needs to be set by the user to select the vocabulary type to be used.<br/>
 
-* **30_TrainBasicLM.py** : Sets up and runs training of the model.  Again there is a block of statemetns in here allowing the user to choose the vocabulary to train against.  Additionaly the user needs to choose the file with the model configuration parameters.  The model config parameters are stored in the config directory under filenames such as L1_2048_512.py.<br/>
+* **30_TrainBasicLM.py** : Sets up and runs training of the model.  Again there is a block of statements in here allowing the user to choose the vocabulary to train against.  Additionaly the user needs to choose the file with the model configuration parameters.  The model config parameters are stored in the config directory under filenames such as L1_2048_512.py.<br/>
 
 * **32_TestPerplexity** : Runs a perplexity test against the trained model.  Choose the model to test at the bottom of the script.<br/>
 
