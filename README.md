@@ -1,4 +1,4 @@
-* SmartLMVocabs : Improving Language Model Performance through Smart Vocabularies
+# SmartLMVocabs : Improving Language Model Performance through Smart Vocabularies
 
 This project is designed to explore the use of preprocessing the Billion Word Corpus with Part-Of-Speech labels and Named-Entities in order to create a "smarter" vocabulary.  Using these techniques it's possible to obtain better perplexity scores than using the top-N words in the corpus alone.
 
