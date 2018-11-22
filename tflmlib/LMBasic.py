@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 # Acknowledgements:
-# Portions of this file are based on code from Saarland University, Spoken Language Systems LSV
+# This file is adapted from code created by Saarland University, Spoken Language Systems (LSV)
 # which is partially based on the Tensorflow PTB-LM recipe
 # See https://github.com/uds-lsv/TF-NNLM-TK
 # and https://github.com/tensorflow/models/blob/master/tutorials/rnn/ptb/ptb_word_lm.py

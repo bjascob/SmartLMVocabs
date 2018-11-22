@@ -44,3 +44,7 @@ The main directory's scripts are prefixed with a number to indicate what order t
 * The code is tested to run under python 3 and Linux.
 * It was originally setup using python 2 so it's likely only minor changes would need to be made to get it to work under that environment.
 * I'm not aware of any limitations to running this under Windows.  If the script to run the Stanford Parser doesn't work, it can simply be run manually.
+
+## Acknowledgments
+Portions of the code were adapted from Saarland University's language model toolkit.  See [TF-NNLM-TK](https://github.com/uds-lsv/TF-NNLM-TK) .<br/>
+That code was in part, based on the [TensorflowPTB-LM](https://github.com/tensorflow/models/blob/master/tutorials/rnn/ptb/ptb_word_lm.py) example model.
