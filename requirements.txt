@@ -1,0 +1,12 @@
+# The following are 3rd party packages installable via pip3
+nltk
+numpy
+psutil
+requests
+tensorflow
+unidecode
+
+# Stanford CoreNLP Java pacakge
+# Download from https://stanfordnlp.github.io/CoreNLP/download.html
+# Version 3.9.2 aka stanford-corenlp-full-2018-10-05.zip
+# Note this package requires Oracle Java (not OpenJDK) and runs under Java 11 or earlier
