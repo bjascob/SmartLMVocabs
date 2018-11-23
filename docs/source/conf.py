@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'ProcessBWCorpus'
+project = 'SmartLMVocabs'
 copyright = '2018, Brad Jascob'
 author = 'Brad Jascob'
 
@@ -76,7 +76,9 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+html_theme = 'classic'
+#html_theme = 'sphinxdoc'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -103,7 +105,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ProcessBWCorpusdoc'
+htmlhelp_basename = 'SmartLMVocabsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -130,7 +132,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ProcessBWCorpus.tex', 'ProcessBWCorpus Documentation',
+    (master_doc, 'SmartLMVocabs.tex', 'SmartLMVocabs Documentation',
      'Brad Jascob', 'manual'),
 ]
 
@@ -140,7 +142,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'processbwcorpus', 'ProcessBWCorpus Documentation',
+    (master_doc, 'SmartLMVocabs', 'SmartLMVocabs Documentation',
      [author], 1)
 ]
 
@@ -151,8 +153,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ProcessBWCorpus', 'ProcessBWCorpus Documentation',
-     author, 'ProcessBWCorpus', 'One line description of project.',
+    (master_doc, 'SmartLMVocabs', 'SmartLMVocabs Documentation',
+     author, 'SmartLMVocabs', 'One line description of project.',
      'Miscellaneous'),
 ]
 
